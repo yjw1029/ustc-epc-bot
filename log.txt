@@ -1,0 +1,40 @@
+pygame 2.0.1 (SDL 2.0.14, Python 3.6.13)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+2021-03-06 15:31:55
+EPC-Bot is running...
+
+2021-03-06 15:31:55
+Login!
+
+2021-03-06 15:31:55
+Your latest schedule:
+  2021/3/8   10:00-11:30[2 hrs] Antonym of Life
+
+2021-03-06 15:31:55
+[{'unit': 'Eight secrets of success', 'prof': 'David', 'hour': '2', 'week': '第2周', 'wday': '周一', 'date': '2021/3/15 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1521&week=2&week_day=1&page=1&book_sum_id=112617', '_new': True}, 
+{'unit': 'Comedy/Humor', 'prof': 'Heiko', 'hour': '2', 'week': '第2周', 'wday': '周一', 'date': '2021/3/15 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=2504&week=2&week_day=1&page=1&book_sum_id=112618', '_new': True}, 
+{'unit': 'Better speaking', 'prof': 'David', 'hour': '2', 'week': '第3周', 'wday': '周一', 'date': '2021/3/22 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1500&week=3&week_day=1&page=1&book_sum_id=112669', '_new': True}, 
+{'unit': 'Essence of Love', 'prof': 'Heiko', 'hour': '2', 'week': '第3周', 'wday': '周一', 'date': '2021/3/22 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1339&week=3&week_day=1&page=1&book_sum_id=112670', '_new': True}, 
+{'unit': 'Eight secrets of success', 'prof': 'David', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1521&week=2&week_day=3&page=1&book_sum_id=112638', '_new': True}, 
+{'unit': 'Benefits of Traveling', 'prof': 'Haydee', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1273&week=2&week_day=3&page=1&book_sum_id=112639', '_new': True},
+{'unit': 'Eight secrets of success', 'prof': 'David', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 14:00-15:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1521&week=2&week_day=3&page=1&book_sum_id=112640', '_new': True}, 
+{'unit': 'Only Child Spoiled And Selfish', 'prof': 'Faezeh', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 14:00-15:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1344&week=2&week_day=3&page=1&book_sum_id=112641', '_new': True}, 
+{'unit': 'Comedy/Humor', 'prof': 'Heiko', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 14:00-15:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=2504&week=2&week_day=3&page=1&book_sum_id=112642', '_new': True}, 
+{'unit': 'How to stop being shy', 'prof': 'Beata', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 16:00-17:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1502&week=2&week_day=3&page=1&book_sum_id=112643', '_new': True}, 
+{'unit': 'Benefits of Traveling', 'prof': 'Haydee', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 16:00-17:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1273&week=2&week_day=3&page=1&book_sum_id=112645', '_new': True}, {'unit': 'Comedy/Humor', 'prof': 'Heiko', 'hour': '2', 'week': '第2周', 'wday': '周三', 'date': '2021/3/17 16:00-17:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=2504&week=2&week_day=3&page=1&book_sum_id=112644', '_new': True}, {'unit': 'Better speaking', 'prof': 'David', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1500&week=3&week_day=3&page=1&book_sum_id=112690', '_new': True}, {'unit': 'Can Money Buy Happiness?', 'prof': 'Haydee', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 10:00-11:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1280&week=3&week_day=3&page=1&book_sum_id=112691', '_new': True}, {'unit': 'Better speaking', 'prof': 'David', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 14:00-15:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1500&week=3&week_day=3&page=1&book_sum_id=112692', '_new': True}, {'unit': 'Benefits of Traveling', 'prof': 'Faezeh', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 14:00-15:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1273&week=3&week_day=3&page=1&book_sum_id=112693', '_new': True}, {'unit': 'Essence of Love', 'prof': 'Heiko', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 14:00-15:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1339&week=3&week_day=3&page=1&book_sum_id=112694', '_new': True}, {'unit': 'Job Interview', 'prof': 'Beata', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 16:00-17:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=2309&week=3&week_day=3&page=1&book_sum_id=112695', '_new': True}, {'unit': 'Can Money Buy Happiness?', 'prof': 'Haydee', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 16:00-17:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1280&week=3&week_day=3&page=1&book_sum_id=112697', '_new': True}, {'unit': 'Essence of Love', 'prof': 'Heiko', 'hour': '2', 'week': '第3周', 'wday': '周三', 'date': '2021/3/24 16:00-17:30', 'room': '-', '_url': 'm_practice.asp?second_id=2002&info_id=1339&week=3&week_day=3&page=1&book_sum_id=112696', '_new': True}]
+Optimal schedule:
+  2021/3/8   10:00-11:30[2 hrs] Antonym of Life
+  2021/3/15  10:00-11:30[2 hrs] Eight secrets of success
+EPC classes to be cancelled:
+  Null
+EPC classes to be booked:
+  2021/3/15  10:00-11:30[2 hrs] Eight secrets of success
+Failed to submit <Eight secrets of success>.
+
+2021-03-06 15:32:06
+Your latest schedule:
+  2021/3/8   10:00-11:30[2 hrs] Antonym of Life
+
+2021-03-06 15:32:06
+EPC-Bot is stopped.
+

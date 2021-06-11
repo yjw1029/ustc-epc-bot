@@ -7,7 +7,10 @@ from goto import with_goto
 from bs4 import BeautifulSoup
 from notify import *
 from gui import *
+from collections import defaultdict
 
+
+day2index = {"Monday": 1, "Tuesday": 2, "Wednesday": 3, "Thursday": 4, "Friday": 5}
 
 class EPCBot(threading.Thread):
 
@@ -40,6 +43,10 @@ class EPCBot(threading.Thread):
         self.email_pwd   = config["email_pwd"]
         self.type_filter = config["type_filter"]
         self.wday_filter = config["wday_filter"]
+        self.enable_days = {}
+        for item in self.wday_filter:
+            if item['enable']:
+                self.enable_days[item['wday']] = True
 
         # 初始化GUI(可选)
         self.ui = ui
@@ -155,9 +162,12 @@ class EPCBot(threading.Thread):
                 date_ = td[5].get_text(separator=" ").split(" ")[0]
                 time_ = td[5].get_text(separator=" ").split(" ")[1]
                 wday_ = time.strftime("%A", time.strptime(date_, "%Y/%m/%d"))
-                if not next(item["enable"] for item in self.wday_filter \
-                    if item["wday"] == wday_ and item["time"] == time_):
-                        return
+                in_time_enables = [item["enable"] for item in self.wday_filter \
+                    if item["wday"] == wday_ and item["time"] == time_]
+                if len(in_time_enables) == 0:
+                    continue
+                if not in_time_enables[0]:
+                    continue
                 bookable_epc.append({
                     "unit": td[0].get_text(separator=" "),   # 预约单元
                     "prof": td[3].get_text(separator=" "),   # 教师
@@ -169,18 +179,27 @@ class EPCBot(threading.Thread):
                     "_url": form[i-1].get("action"),         # 表单链接
                     "_new": True                             # 是否为可预约课程
                 })
+            if len(bookable_epc) > 0:
+                self.print_log(f"Latest bookable course:\n {bookable_epc[0]['date']}")
+            else:
+                self.print_log(f"No bookable course.")
             with mutex:
                 queue.put((bookable_epc, True))
             return
 
         # 开启多线程, 同时获取所有种类的EPC可预约列表
         bookable_epc = list()
+
         success = True
         tasks = list()
         for epc_type in self.type_filter:
-            if not epc_type["enable"]: continue
+            if not epc_type["enable"]: 
+                continue
             type_url = next(item["url"] for item in self.URL_BOOKABLE \
                 if item["type"] == epc_type["type"])
+            # for wday in self.enable_days:
+            #     for week in range(2, 4):
+            # full_url = type_url + f"&week={week}&week_day={day2index[wday]}"
             task = threading.Thread(target=foo, args=(type_url, ))
             task.start()
             tasks.append(task)
@@ -410,6 +429,8 @@ class EPCBot(threading.Thread):
         if not success:
             self.print_log("Failed to fetch latest bookable classes.\n")
             goto .check_loop
+        
+        print('bookable:', bookable_epc)
 
         # 计算最优EPC课程列表
         optimal_epc, booking_epc, canceling_epc = self.optimize_epc(booked_epc, \

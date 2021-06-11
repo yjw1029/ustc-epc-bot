@@ -1,10 +1,15 @@
-import winsound
+# for windows users
+# import winsound
+# from win10toast import ToastNotifier
+# for max users 
+import os
+import pygame
+
 import smtplib, email
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.header import Header
-from win10toast import ToastNotifier
 
 
 class EmailSender:
@@ -28,11 +33,20 @@ class EmailSender:
         smtp.quit()
 
 
-class DesktopToaster(ToastNotifier):
-
+class DesktopToaster:
+    def __init__(self):
+        pygame.init()
+        pygame.mixer.init()
+        self.sounda = pygame.mixer.Sound("chirp.wav")
+    
     def on_destroy(self, hwnd, msg, wparam, lparam):
         pass
 
+    def show_toast(self, title, text):
+        os.system("""
+                osascript -e 'display notification "{}" with title "{}"'
+                """.format(text, title))
+
     def toast(self, subject, content):
-        self.show_toast(subject, content, icon_path="python.ico", threaded=True)
-        winsound.PlaySound("chirp.wav", winsound.SND_FILENAME | winsound.SND_ASYNC)
+        self.show_toast(subject, content)
+        self.sounda.play()
