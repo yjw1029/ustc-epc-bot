@@ -20,4 +20,6 @@ dist/
 /.vscode
 config.json
 
+# others
 epc.ipynb
+log.txt
