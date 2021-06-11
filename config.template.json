@@ -1,40 +1,153 @@
 {
-    "ustc_id":    "SA20011152",
-    "ustc_pwd":   "NTBNUY",
-    "email_addr": "yjw1029@mail.ustc.edu.cn",
-    "email_pwd":  "@yjw56199801029",
-    "type_filter": [
-        {"type": "Situational Dialogue",   "enable": true},
-        {"type": "Topical Discussion",     "enable": true},
-        {"type": "Debate",                 "enable": true},
-        {"type": "Drama",                  "enable": true},
-        {"type": "Pronunciation Practice", "enable": true}
+    "ustc_id": "xxxx",
+    "ustc_pwd": "xxxx",
+    "email_addr": "xxxx",
+    "email_pwd": "xxxx",
+    "type_filter": [{
+            "type": "Situational Dialogue",
+            "enable": true
+        },
+        {
+            "type": "Topical Discussion",
+            "enable": true
+        },
+        {
+            "type": "Debate",
+            "enable": true
+        },
+        {
+            "type": "Drama",
+            "enable": true
+        },
+        {
+            "type": "Pronunciation Practice",
+            "enable": true
+        }
     ],
-    "wday_filter": [
-        {"wday": "Monday",    "time": "08:00-09:30", "enable": false},
-        {"wday": "Monday",    "time": "10:00-11:30", "enable": false},
-        {"wday": "Monday",    "time": "14:00-15:30", "enable": false},
-        {"wday": "Monday",    "time": "16:00-17:30", "enable": false},
-        {"wday": "Monday",    "time": "19:00-20:30", "enable": false},
-        {"wday": "Tuesday",   "time": "08:00-09:30", "enable": false},
-        {"wday": "Tuesday",   "time": "10:00-11:30", "enable": false},
-        {"wday": "Tuesday",   "time": "14:00-15:30", "enable": false},
-        {"wday": "Tuesday",   "time": "16:00-17:30", "enable": false},
-        {"wday": "Tuesday",   "time": "19:00-20:30", "enable": false},
-        {"wday": "Wednesday", "time": "08:00-09:30", "enable": false},
-        {"wday": "Wednesday", "time": "10:00-11:30", "enable": false},
-        {"wday": "Wednesday", "time": "14:00-15:30", "enable": false},
-        {"wday": "Wednesday", "time": "16:00-17:30", "enable": false},
-        {"wday": "Wednesday", "time": "19:00-20:30", "enable": false},
-        {"wday": "Thursday",  "time": "08:00-09:30", "enable": false},
-        {"wday": "Thursday",  "time": "10:00-11:30", "enable": false},
-        {"wday": "Thursday",  "time": "14:00-15:30", "enable": false},
-        {"wday": "Thursday",  "time": "16:00-17:30", "enable": false},
-        {"wday": "Thursday",  "time": "19:00-20:30", "enable": false},
-        {"wday": "Friday",    "time": "08:00-09:30", "enable": false},
-        {"wday": "Friday",    "time": "10:00-11:30", "enable": false},
-        {"wday": "Friday",    "time": "14:00-15:30", "enable": false},
-        {"wday": "Friday",    "time": "16:00-17:30", "enable": false},
-        {"wday": "Friday",    "time": "19:00-20:30", "enable": false}
+    "wday_filter": [{
+            "wday": "Monday",
+            "time": "08:00-09:30",
+            "enable": false
+        },
+        {
+            "wday": "Monday",
+            "time": "10:00-11:30",
+            "enable": false
+        },
+        {
+            "wday": "Monday",
+            "time": "14:00-15:30",
+            "enable": false
+        },
+        {
+            "wday": "Monday",
+            "time": "16:00-17:30",
+            "enable": false
+        },
+        {
+            "wday": "Monday",
+            "time": "19:00-20:30",
+            "enable": false
+        },
+        {
+            "wday": "Tuesday",
+            "time": "08:00-09:30",
+            "enable": false
+        },
+        {
+            "wday": "Tuesday",
+            "time": "10:00-11:30",
+            "enable": false
+        },
+        {
+            "wday": "Tuesday",
+            "time": "14:00-15:30",
+            "enable": false
+        },
+        {
+            "wday": "Tuesday",
+            "time": "16:00-17:30",
+            "enable": false
+        },
+        {
+            "wday": "Tuesday",
+            "time": "19:00-20:30",
+            "enable": false
+        },
+        {
+            "wday": "Wednesday",
+            "time": "08:00-09:30",
+            "enable": false
+        },
+        {
+            "wday": "Wednesday",
+            "time": "10:00-11:30",
+            "enable": false
+        },
+        {
+            "wday": "Wednesday",
+            "time": "14:00-15:30",
+            "enable": false
+        },
+        {
+            "wday": "Wednesday",
+            "time": "16:00-17:30",
+            "enable": false
+        },
+        {
+            "wday": "Wednesday",
+            "time": "19:00-20:30",
+            "enable": false
+        },
+        {
+            "wday": "Thursday",
+            "time": "08:00-09:30",
+            "enable": false
+        },
+        {
+            "wday": "Thursday",
+            "time": "10:00-11:30",
+            "enable": false
+        },
+        {
+            "wday": "Thursday",
+            "time": "14:00-15:30",
+            "enable": false
+        },
+        {
+            "wday": "Thursday",
+            "time": "16:00-17:30",
+            "enable": false
+        },
+        {
+            "wday": "Thursday",
+            "time": "19:00-20:30",
+            "enable": false
+        },
+        {
+            "wday": "Friday",
+            "time": "08:00-09:30",
+            "enable": false
+        },
+        {
+            "wday": "Friday",
+            "time": "10:00-11:30",
+            "enable": false
+        },
+        {
+            "wday": "Friday",
+            "time": "14:00-15:30",
+            "enable": false
+        },
+        {
+            "wday": "Friday",
+            "time": "16:00-17:30",
+            "enable": false
+        },
+        {
+            "wday": "Friday",
+            "time": "19:00-20:30",
+            "enable": false
+        }
     ]
 }
