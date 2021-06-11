@@ -4,6 +4,10 @@
 ![Compiler](https://img.shields.io/badge/Build-Python%203.6-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-GPL,%20v3.0-blue.svg)
 
+版本 v2.2 更新日志(2021_06_11):
+- 支持Mac OS**桌面提醒**
+- 适应2021课程时间
+
 版本 v2.1 更新日志(2020_03_30):
 - 支持自动选课, 根据**课表优化算法**自动优化课表.
 - 支持**课程时间**和**课程类型**的自定义筛选.
